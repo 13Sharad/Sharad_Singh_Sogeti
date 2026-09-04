@@ -1,0 +1,100 @@
+I need you to act as a Senior Functional Tester with strong experience in Payment Gateway Testing, Banking Applications, and E-commerce Checkout Systems.
+
+I am working on a Credit Card Payment feature and need a comprehensive, professional-grade test case document that can be used directly in a QA repository.
+
+Application Flow:
+
+1. Enter Card Holder Name
+2. Enter Credit Card Number
+3. Enter Card Expiry Date (MM/YY)
+4. Enter CVV Number
+5. Select or Unselect the "Save Card Details" checkbox
+6. Click the "Pay" button
+
+Please create detailed test cases covering the following areas:
+
+• Functional Testing
+• Negative Testing
+• Boundary Value Testing
+
+While creating the test cases, ensure they reflect realistic user behavior and real-world payment processing scenarios commonly found in banking, fintech, and e-commerce applications.
+
+Guidelines:
+
+• Follow industry-standard QA test case design practices.
+• Each test case should validate only one business rule or requirement.
+• Include both valid and invalid user inputs.
+• Cover mandatory field validations.
+• Cover minimum and maximum input boundaries.
+• Cover input format validations.
+• Cover payment submission validations.
+• Cover Save Card Details checkbox behavior.
+• Cover complete end-to-end successful payment scenarios.
+• Expected results should be clear, measurable, and business-oriented.
+• Use realistic test data.
+• Do not use scientific notation for card numbers.
+• Use professional QA terminology and naming conventions.
+
+The output should be presented in a tabular format with the following columns:
+
+- Test Case ID
+- Test Case Name
+- Test Step
+- Input Data
+- Expected Results
+- Actual Results
+- Test Environment
+- Test Priority
+- Execution Status
+- Bug Severity
+- Bug Priority
+- Notes
+
+Default Values:
+
+• Test Case IDs should start with CC_001 and continue sequentially.
+• Test Environment should be "QA | Chrome | Windows 11".
+• Actual Results should be "Not Executed".
+• Execution Status should be "Not Executed".
+• Bug Severity and Bug Priority should remain blank.
+• Notes should indicate the test type, such as Functional, Negative, Boundary, or Boundary/Negative.
+
+Coverage Expectations:
+
+1. Card Holder Name Validation
+   - Mandatory validation
+   - Character validation
+   - Minimum and maximum length validation
+
+2. Credit Card Number Validation
+   - Mandatory validation
+   - Valid card number format
+   - Invalid card number format
+   - Minimum and maximum length validation
+   - Numeric-only validation
+
+3. Expiry Date Validation
+   - Mandatory validation
+   - Expired card validation
+   - Invalid month validation
+   - Boundary conditions for current month and year
+
+4. CVV Validation
+   - Mandatory validation
+   - Numeric validation
+   - Minimum and maximum length validation
+
+5. Save Card Details Checkbox
+   - Checkbox selected
+   - Checkbox unselected
+
+6. Payment Button Validation
+   - Submit with empty fields
+   - Submit with invalid data
+   - Submit with valid data
+
+7. End-to-End Payment Processing
+   - Successful payment flow
+   - User confirmation after successful payment
+
+Generate between 20 and 30 well-structured, non-duplicate test cases suitable for enterprise-level QA documentation and test management tools such as Azure DevOps, JIRA, ALM, or TestRail.
