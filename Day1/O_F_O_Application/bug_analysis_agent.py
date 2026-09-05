@@ -30,4 +30,4 @@ Analyze and output:
     )
 ])
 
-bug_analysis_chain = bug_analysis_prompt | chat_model /
+bug_analysis_chain = bug_analysis_prompt | chat_model 
