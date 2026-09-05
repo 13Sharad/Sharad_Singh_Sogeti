@@ -1,0 +1,17 @@
+{
+  "login": {
+    "username": "apex_user",
+    "password": "Password123!"
+  },
+ 
+  "beneficiary": {
+    "name": "Sharad Singh",
+    "accountNumber": "12994567833",
+    "bankName": "Chase Bank"
+  },
+ 
+  "transfer": {
+    "amount": "200"
+  }
+}
+ 
